@@ -1,0 +1,87 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Brett Wiseman</title>
+        <link type="text/vcard" href="contactinfo.vcf">
+        <link type="text/x-vcard" href="contactios.vcf">
+        <link rel="icon" type="image/png" href="https://vaibhavarora.net/img/favicon.ico">
+        <link rel="manifest" href="assets/site.webmanifest" crossorigin="use-credentials">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- The Modal -->
+        <div1 id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+                <span class="close">×</span>
+                <a href="contactinfo.vcf" class="links"> Android </a>
+                <a href="contactios.vcf" class="links"> iPhone </a>
+            </div>
+        </div1>
+
+        <center>
+        <div style="background-color: white ;width: fit-content;height: fit-content;border-radius: 20px;margin-left: 5%;margin-top: 5%;">
+        <!-- Profile picture-->
+            <br>
+            <img src="https://i.ibb.co/W5Pd0Dv/headshot.jpg" alt="profile picture" class="profile-picture">
+            <!-- Profile name-->
+        <h1 class="profile name"><a target="_blank" class="profile name">Brett Wiseman</a></h1>
+        <!-- Profile motto-->
+        <h2 class="profile motto">
+          Computer Engineering Student,<br>
+          University of Notre Dame
+        </h2>
+        <!-- Social Media Icons-->
+		<p style="margin: 0.75pt; font-size: 20px; font-family: Arial, sans-serif;">
+			
+                	<a href="https://www.linkedin.com/in/brett-wiseman77/" target="_blank">
+			<img width="40" height="40" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png" alt="" style="border: 0 ;  border-radius: 0px;">                      
+            </a> 
+            <a href="https://github.com/bwiseman77" target="_blank">
+                <img width="40" height="40" src="https://image.flaticon.com/icons/png/512/37/37318.png" alt=" " style="border: 0 ; border-radius: 0px ; ">
+            </a>
+            <a href="https://wiseman77.com/" target="_blank">
+                <img width="40" height="40" src="https://th.bing.com/th/id/OIP.vRE0tGGZdKN4XXpyxL159QHaHa?pid=ImgDet&amp;rs=1" alt=" " style="border: 0 ; border-radius: 0px ; ">
+            </a>
+		</p>
+        <!-- Links and Headers-->
+        <a class="links" id="myBtn" onclick="myFunction()"> Save Contact </a>
+        <a href="mailto:bwisema3@nd.edu" target="_blank" class="links">Gmail</a>
+	<a href="/Brett_Wiseman_Resume.pdf" target="_blank" class="links">Resume</a>
+            <br>
+        </div>
+        </center>
+    </body>
+
+</html>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
