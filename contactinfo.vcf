@@ -1,12 +1,10 @@
 BEGIN:VCARD
 VERSION:3.0
 PRODID:-//Apple Inc.//iPhone OS 15.1//EN
-N:Wiseman;Brett;;;
-FN:Brett Wiseman
-ORG:Notre Dame CSE ;
-EMAIL;type=INTERNET;type=WORK;type=pref:bwisema3@nd.edu
-TEL;type=pref:+17089270554
-X-SOCIALPROFILE;type=GitHub;x-user="https://github.com/bwiseman77":x-apple:https%3A//github.com/bwiseman77
-X-SOCIALPROFILE;type=linkedin:http://www.linkedin.com/in/bwiseman77
-URL;type=WORK;type=pref:https://github.com/bwiseman77
+N:Haran;Niamh;;;
+FN:Niamh Haran
+ORG:St Xavier Accounting / Finance ;
+EMAIL;type=INTERNET;type=WORK;type=pref:haran.n01@mymail.sxu.edu 
+TEL;type=pref:+17089714879
+X-SOCIALPROFILE;type=linkedin:https://www.linkedin.com/in/niamh-haran-732a38194/
 END:VCARD
